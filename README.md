@@ -1,8 +1,8 @@
-# CSS
+# Easy Responsive CSS Grid
 
-### Flexbox Center Middle Inner Content
+### Tutorial
 
-https://github.com/webstylepress/CSS/tree/flexbox-center-middle-inner-content
+https://www.youtube.com/watch?v=hCW6YBAF89w
 
 ### WebStylePress
 
