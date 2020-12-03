@@ -1,8 +1,8 @@
-# CSS
+# Accordion - Adjacent li Toggle
 
-### Flexbox Center Middle Inner Content
+### Tutorial
 
-https://github.com/webstylepress/CSS/tree/flexbox-center-middle-inner-content
+https://www.youtube.com/watch?v=N9XK0wkYgao
 
 ### WebStylePress
 
