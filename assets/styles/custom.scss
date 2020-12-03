@@ -1,0 +1,95 @@
+// ## font-weights 
+// 500 medium
+// 600 semi-bold
+// 700 bold
+// 800 extra-bold
+
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+html {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  body {
+    width:100%; 
+    height: 100%; 
+    overflow-x:hidden; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+}
+
+a:hover, a:active, a:visited, a:focus {text-decoration:none;}
+img { border:0; }
+.clear, .clear1, .clear2, .clear3, .clear4, .clear5, .clear10, .clear20, .clear30, .clear40, .clear60, .clear80 {clear:both; font-size:0px; line-height:0px;}
+.clear {height:0px;} .clear1 {height:1px;} .clear2 {height:2px;} .clear3 {height:3px;} .clear4 {height:4px;} .clear5 {height:5px;} .clear10 {height:10px;} .clear20 {height:20px;} .clear30 {height:30px;} .clear40 {height:40px;} .clear60 {height:60px;} .clear80 {height:80px;}
+form {display: block; width: 100%;}
+textarea {/*resize:vertical;*/ resize: none;}
+button:focus, .btn:focus, a:focus, input:focus, .form-control:focus {outline: 0;}
+button, .btn {background-image: none; text-shadow: none; box-shadow: none;}
+
+.no-padding-margin {padding:0; margin:0;}
+.no-padding {padding:0;}
+.no-margin {margin:0;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.fixed {position: fixed;}
+.overflow-hidden {overflow: hidden;}
+.overflow-visible {overflow: visible !important;}
+.inline-block {display: inline-block;}
+.full-width {width:100%; display: block; clear: both;}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.account-wrap {
+  height: 100%;
+  .half {
+    &.left {
+      background-image: url('../images/bg.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      justify-content: flex-end;
+      padding: 40px;
+      color: #fff;
+      width: 50%;
+      h2 {
+        font-weight: 700;
+      }
+      @media all and (max-width: 991px) {
+        display: none;
+      }
+    }
+    &.right {
+      justify-content: center;
+      padding: 40px;
+      width: 50%;
+      @media all and (max-width: 991px) {
+        width: 100%;
+      }
+      .login-box {
+        max-width: 400px;
+        margin: 0 auto;
+        label{
+          display: block;
+          width: 100%;
+        }
+        input {
+          display: block;
+          width: 100%;
+        }
+
+      }
+    }
+  }  
+}
