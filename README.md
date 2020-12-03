@@ -1,8 +1,8 @@
-# CSS
+# Video Conferencing Grid CSS
 
-### Flexbox Center Middle Inner Content
+### Tutorial
 
-https://github.com/webstylepress/CSS/tree/flexbox-center-middle-inner-content
+https://www.youtube.com/watch?v=YwraekDcoBw
 
 ### WebStylePress
 
